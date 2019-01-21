@@ -62,5 +62,11 @@ end
 
 def runner
   # code runner here
+  welcome
+  n = initial_round
+  until n == 21
+    prompt_user
+    hit?(get_user_input)
+  end
 end
     
