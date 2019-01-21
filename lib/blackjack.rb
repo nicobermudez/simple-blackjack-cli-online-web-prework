@@ -64,7 +64,6 @@ def runner
   # code runner here
   welcome
   n = initial_round
-  puts n
   until n > 21
     prompt_user
     n = hit?(n)
