@@ -46,12 +46,13 @@ def hit?(n)
   elsif input == 's'
     return n
   else 
-    puts "Please enter a valid command"
+    invalid_command
   end
 end
 
 def invalid_command
   # code invalid_command here
+  puts "Please enter a valid command"
 end
 
 #####################################################
