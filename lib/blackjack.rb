@@ -68,6 +68,6 @@ def runner
     prompt_user
     n = hit?(n)
   end
-end_game
+end_game(n)
 end
     
