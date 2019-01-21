@@ -23,12 +23,17 @@ def get_user_input
   input = gets.chomp
 end
 
-def end_game
+def end_game(n)
   # code #end_game here
+  puts "Sorry, you hit #{n}. Thanks for playing!"
 end
 
 def initial_round
   # code #initial_round here
+  n = deal_card
+  n2 = deal_card
+  puts display_card_total(n+n2)
+  return display_card_total(n+n2)
 end
 
 def hit?
