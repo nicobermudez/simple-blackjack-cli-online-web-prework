@@ -65,7 +65,7 @@ def runner
   welcome
   n = initial_round
   until n > 21
-    prompt_user
+    puts prompt_user
     n = hit?(n)
   end
 end_game(n)
