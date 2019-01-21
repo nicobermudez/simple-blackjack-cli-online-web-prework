@@ -66,7 +66,7 @@ def runner
   n = initial_round
   until n == 21
     prompt_user
-    hit?(n)
+    n = hit?(n)
   end
 end_game
 end
