@@ -67,6 +67,7 @@ def runner
   until n > 21
     prompt_user
     n = hit?(n)
+    display_card_total
   end
 end_game(n)
 end
