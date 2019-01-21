@@ -1,6 +1,6 @@
 def welcome
   # code #welcome here
-  puts "Welcome to the Blackjack Table."
+  puts "Welcome to the Blackjack Table"
 end
 
 def deal_card
@@ -16,7 +16,6 @@ end
 def prompt_user
   # code #prompt_user here
   puts "Type 'h' to hit or 's' to stay"
-  get_user_input 
 end
 
 def get_user_input
