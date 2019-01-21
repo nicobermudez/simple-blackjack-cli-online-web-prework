@@ -68,5 +68,6 @@ def runner
     prompt_user
     hit?(get_user_input)
   end
+end_game
 end
     
