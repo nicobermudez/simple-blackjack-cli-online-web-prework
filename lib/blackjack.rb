@@ -33,7 +33,7 @@ def initial_round
   n = deal_card
   n2=deal_card
   sum = n+n2
-  puts display_card_total(sum)
+  puts sum
   return display_card_total(sum)
 end
 
