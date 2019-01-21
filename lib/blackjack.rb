@@ -32,7 +32,7 @@ def initial_round
   # code #initial_round here
   n = deal_card
   n2 = deal_card
-  puts display_card_total(n+n2)
+  puts n+n2
   return display_card_total(n+n2)
 end
 
