@@ -36,8 +36,18 @@ def initial_round
   return display_card_total(n+n2)
 end
 
-def hit?
+def hit?(n)
   # code hit? here
+  prompt_user
+  input = get_user_input
+  if input == 'h'
+    deal_card
+    return n
+  elsif input == 's'
+    return n
+  else 
+    puts "Please enter a valid command"
+  end
 end
 
 def invalid_command
